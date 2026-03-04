@@ -19,7 +19,8 @@ public class UserInterface {
             }
             if(command.equals("add")){
                 System.out.print("To add: ");
-                list.add(ievade.nextLine());
+                String task = ievade.nextLine();
+                list.add(task);
             }
             if (command.equals("remove")) {
                 System.out.print("Which one is removed? ");
