@@ -2,7 +2,7 @@ package rvt.Not_rvt;
 
 import java.util.ArrayList;
 
-public class Box{
+public class Box implements Packable{
     private double weight;
     ArrayList<Packable> list = new ArrayList<>();
     
