@@ -4,11 +4,11 @@ import java.util.*;
 
 public class Main {
   public static void main(String[] args) {
-    Scanner ievade = new Scanner(System.in);
-    TodoList list = new TodoList();
-    UserInterface todoUI = new UserInterface(list, ievade);
+   IOU mattsIOU = new IOU();
+  mattsIOU.setSum("Arthur", 51.5);
+  mattsIOU.setSum("Arthur", 10.5);
 
-    todoUI.start();
+  System.out.println(mattsIOU.howMuchDoIOweTo("Arthur"));
 
   }
 }
